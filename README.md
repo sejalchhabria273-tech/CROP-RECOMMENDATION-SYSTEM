@@ -1,6 +1,8 @@
 🌱 Crop Recommendation System (Machine Learning Project)
+
 📌 Project Overview
 This project aims to recommend the most suitable crop for farming based on soil nutrients and climate conditions using Machine Learning techniques. It demonstrates a complete ML pipeline from data preprocessing to deployment with Streamlit.
+
 
 🎯 Objective
 To build an end-to-end ML system that:
@@ -8,6 +10,7 @@ Takes farm data (soil and climate features) as input
 Predicts the best crop to grow
 Provides real-time recommendations via a web interface
 Suggests farming tips to improve soil health and yield
+
 
 📊 Features Used
 Nitrogen (N)
@@ -31,9 +34,9 @@ F1 Score
 
 🏆 Final Model
 The Random Forest Classifier was selected as the final model because it achieved:
-
 Highest accuracy
 Robust performance across different crop categories
+
 
 🛠️ Tech Stack
 Python
@@ -42,6 +45,7 @@ NumPy
 Scikit-learn
 Joblib
 Streamlit
+
 
 🚀 How to Run the Project Locally
 1️⃣ Clone the Repository
@@ -57,6 +61,8 @@ pip install -r requirements.txt
 
 bash
 streamlit run app.py
+
+
 4️⃣ Open in Browser
 The app will open automatically at:
 
@@ -67,6 +73,7 @@ The project is deployed using Streamlit Cloud.
 
 👉 Live Demo: Network URL: http://10.102.144.248:8501
 
+
 📂 Project Structure
 Code
 ├── app.py
@@ -75,6 +82,9 @@ Code
 │   └── label_encoder.pkl
 ├── requirements.txt
 └── README.md
+
+
+
 💡 Key Highlights
 Cleaned and processed agricultural dataset
 
