@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load model and encoder
-model = joblib.load("models/crop_model.pkl")
-le = joblib.load("models/label_encoder.pkl")
+model = joblib.load("crop_model.pkl")
+le = joblib.load("label_encoder.pkl")
 
 features = ['N','P','K','temperature','humidity','ph','rainfall']
 
